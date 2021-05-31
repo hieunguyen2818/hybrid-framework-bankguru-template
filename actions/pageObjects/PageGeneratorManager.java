@@ -14,35 +14,35 @@ public class PageGeneratorManager {
 		
 	}
 	
-	public LoginPageObject getLoginPage (WebDriver driver) {
+	public static LoginPageObject getLoginPage (WebDriver driver) {
 		if(loginPage == null) {
 			return new LoginPageObject(driver);
 		}
 		return loginPage;
 	}
 
-	public ManagerPageObject managerPage (WebDriver driver) {
+	public static ManagerPageObject managerPage (WebDriver driver) {
 		if(managerPage == null) {
 			return new ManagerPageObject(driver);
 		}
 		return managerPage;
 	}
 	
-	public NewCustomerPageObject getNewCustomerPage (WebDriver driver) {
+	public static NewCustomerPageObject getNewCustomerPage (WebDriver driver) {
 		if(newCustomerPage == null) {
 			return new NewCustomerPageObject(driver);
 		}
 		return newCustomerPage;
 	}
 
-	public EditCustomerPageObject geEditCustomerPage (WebDriver driver) {
+	public static EditCustomerPageObject geEditCustomerPage (WebDriver driver) {
 		if(editCustomerPage == null) {
 			return new EditCustomerPageObject(driver);
 		}
 		return editCustomerPage;
 	}
 
-	public DeleteCustomerPageObject getDeletePage (WebDriver driver) {
+	public static DeleteCustomerPageObject getDeletePage (WebDriver driver) {
 		if(deleteCustomerPage == null) {
 		return new DeleteCustomerPageObject(driver);
 	}
