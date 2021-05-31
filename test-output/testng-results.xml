@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-31T10:11:57Z" name="Suite" finished-at="2021-05-31T10:12:05Z" duration-ms="7427">
+    <groups>
+    </groups>
+    <test started-at="2021-05-31T10:11:57Z" name="New Customer" finished-at="2021-05-31T10:12:05Z" duration-ms="7427">
+      <class name="com.bankguru.Customer.TC_01_New_Customer">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:11:57Z" name="beforeTest" finished-at="2021-05-31T10:12:05Z" duration-ms="7361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://demo.guru99.com/v4/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="NC_01_Name_Can_Not_Be_Empty()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_01_Name_Can_Not_Be_Empty" finished-at="2021-05-31T10:12:05Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_01_Name_Can_Not_Be_Empty -->
+        <test-method signature="NC_02_Name_Can_Not_Be_Numeric()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_02_Name_Can_Not_Be_Numeric" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_02_Name_Can_Not_Be_Numeric -->
+        <test-method signature="NC_03_Name_Cannot_have_special_characters()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_03_Name_Cannot_have_special_characters" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_03_Name_Cannot_have_special_characters -->
+        <test-method signature="NC_04_Name_Cannot_havefirstCharacter_asBlankSpace()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_04_Name_Cannot_havefirstCharacter_asBlankSpace" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_04_Name_Cannot_havefirstCharacter_asBlankSpace -->
+        <test-method signature="NC_05_Adress_Cannot_Be_Empty()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_05_Adress_Cannot_Be_Empty" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_05_Adress_Cannot_Be_Empty -->
+        <test-method signature="NC_06_Adress__havefirst_BlankSpace()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_06_Adress__havefirst_BlankSpace" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_06_Adress__havefirst_BlankSpace -->
+        <test-method signature="NC_07_City_Field_Cannot_Be_Empty()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_07_City_Field_Cannot_Be_Empty" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_07_City_Field_Cannot_Be_Empty -->
+        <test-method signature="NC_08_City_Cannot_Be_Numeric()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_08_City_Cannot_Be_Numeric" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_08_City_Cannot_Be_Numeric -->
+        <test-method signature="NC_09_City_Cannot_have_special_characters()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_09_City_Cannot_have_special_characters" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_09_City_Cannot_have_special_characters -->
+        <test-method signature="NC_10_City_Cannot_have_first_blankSpace()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_10_City_Cannot_have_first_blankSpace" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_10_City_Cannot_have_first_blankSpace -->
+        <test-method signature="NC_11_State_Cannot_be_empty()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_11_State_Cannot_be_empty" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_11_State_Cannot_be_empty -->
+        <test-method signature="NC_12_State_Cannot_be_numeric()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_12_State_Cannot_be_numeric" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_12_State_Cannot_be_numeric -->
+        <test-method signature="NC_13_State_Cannot_have_specialCharacters()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_13_State_Cannot_have_specialCharacters" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_13_State_Cannot_have_specialCharacters -->
+        <test-method signature="NC_14_City_Cannot_have_first_blankSpace()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_14_City_Cannot_have_first_blankSpace" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_14_City_Cannot_have_first_blankSpace -->
+        <test-method signature="NC_15_PIN_mustbe_numeric()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_15_PIN_mustbe_numeric" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_15_PIN_mustbe_numeric -->
+        <test-method signature="NC_16_PIN_cannot_be_empty()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_16_PIN_cannot_be_empty" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_16_PIN_cannot_be_empty -->
+        <test-method signature="NC_17_PIN_must_have_6_digits()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_17_PIN_must_have_6_digits" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_17_PIN_must_have_6_digits -->
+        <test-method signature="NC_18_PIN_cannot_have_specialCharacters()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_18_PIN_cannot_have_specialCharacters" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_18_PIN_cannot_have_specialCharacters -->
+        <test-method signature="NC_19_PIN_cannot_have_first_blankSpace()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_19_PIN_cannot_have_first_blankSpace" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_19_PIN_cannot_have_first_blankSpace -->
+        <test-method signature="NC_20_PIN_cannot_have_blankSpace()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_20_PIN_cannot_have_blankSpace" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_20_PIN_cannot_have_blankSpace -->
+        <test-method signature="NC_21_Telephone_Cannot_be_empty()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_21_Telephone_Cannot_be_empty" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_21_Telephone_Cannot_be_empty -->
+        <test-method signature="NC_22_Telephone_Cannot_have_first_blankSpace()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_22_Telephone_Cannot_have_first_blankSpace" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_22_Telephone_Cannot_have_first_blankSpace -->
+        <test-method signature="NC_23_Telephone_Cannot_have_space()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_23_Telephone_Cannot_have_space" finished-at="2021-05-31T10:12:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_23_Telephone_Cannot_have_space -->
+        <test-method signature="NC_24_Telephone_Cannot_have_special_Characters()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_24_Telephone_Cannot_have_special_Characters" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_24_Telephone_Cannot_have_special_Characters -->
+        <test-method signature="NC_25_Email_Cannot_be_empty()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_25_Email_Cannot_be_empty" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_25_Email_Cannot_be_empty -->
+        <test-method signature="NC_26_Email_must_be_correct_format()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_26_Email_must_be_correct_format" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_26_Email_must_be_correct_format -->
+        <test-method signature="NC_27_Email_Cannot_have_space()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_27_Email_Cannot_have_space" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_27_Email_Cannot_have_space -->
+        <test-method signature="NC_28_Check_all_fields_label_as_requirement()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="NC_28_Check_all_fields_label_as_requirement" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NC_28_Check_all_fields_label_as_requirement -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.bankguru.Customer.TC_01_New_Customer@43c1b556]" started-at="2021-05-31T10:12:05Z" name="afterTest" finished-at="2021-05-31T10:12:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.bankguru.Customer.TC_01_New_Customer -->
+    </test> <!-- New Customer -->
+  </suite> <!-- Suite -->
+</testng-results>
