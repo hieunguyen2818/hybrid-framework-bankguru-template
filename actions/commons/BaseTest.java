@@ -6,13 +6,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pageObjects.LoginPageObject;
+import pageObjects.ManagerPageObject;
+import pageObjects.PageGeneratorManager;
 
 
 public class BaseTest {
 	
 	private WebDriver driver;
+	LoginPageObject loginPage;
+	ManagerPageObject managerPage;
+	
 	private enum BROWSER {
 		CHROME, FIREFOX, EDGE_CHOROMIUM, SAFARI;
 	}
@@ -40,4 +47,13 @@ public class BaseTest {
 		
 		return driver;
 	}
+
+	public void Login(String userID, String password) {
+		loginPage = PageGeneratorManager.getLoginPage(driver);
+		loginPage.enterUserName(userID);
+		loginPage.enterPassword(password);
+		managerPage = loginPage.clickToLoginButton();
+		Assert.assertEquals(managerPage.getWelcomeMessageText(),"Welcome To Manager's Page of Guru99 Bank");
+	}
+
 }

@@ -28,38 +28,53 @@ public class TC_01_New_Customer extends BaseTest{
 	@Parameters ({"browser", "url"}) 
 	@BeforeTest
 	public void beforeTest(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
-		loginPage = PageGeneratorManager.getLoginPage(driver);
-		loginPage.enterUserName("");
-		loginPage.enterPassword("");
-		managerPage = loginPage.clickToLoginButton();
-		Assert.assertTrue(managerPage.isWelcomeMessageDisplayed());
+		driver = getBrowserDriver(browserName, appUrl); 
+		Login("mngr330605", "pEtUtUg");		
 	}
 
 	@Test
 	public void NC_01_Name_Can_Not_Be_Empty() {
 		newCustomerPage = managerPage.clickOnNewCustomerPage();
+		newCustomerPage.inputToNameTextbox("");
+		newCustomerPage.pressTabKey();
+		Assert.assertEquals(newCustomerPage.getNameErrorMessage(),"Customer name must not be blank");
 		
 	}
 	@Test
 	public void NC_02_Name_Can_Not_Be_Numeric() {
+		newCustomerPage.refreshCurrenPage(driver);
+		newCustomerPage.inputToNameTextbox("12345");
+		newCustomerPage.pressTabKey();
+		Assert.assertEquals(newCustomerPage.getNameErrorMessage(),"Numbers are not allowed");
 		
 	}
 	@Test
 	public void NC_03_Name_Cannot_have_special_characters() {
-		
+		newCustomerPage.refreshCurrenPage(driver);
+		newCustomerPage.inputToNameTextbox("@#$^&*****");
+		newCustomerPage.pressTabKey();
+		Assert.assertEquals(newCustomerPage.getNameErrorMessage(),"Special characters are not allowed");
 	}
 	@Test
 	public void NC_04_Name_Cannot_havefirstCharacter_asBlankSpace () {
-		
+		newCustomerPage.refreshCurrenPage(driver);
+		newCustomerPage.inputToNameTextbox(" hieunguyen");
+		newCustomerPage.pressTabKey();
+		Assert.assertEquals(newCustomerPage.getNameErrorMessage(),"First character can not have space");
 	}
 	@Test
 	public void NC_05_Adress_Cannot_Be_Empty() {
-		
+		newCustomerPage.refreshCurrenPage(driver);
+		newCustomerPage.inputToAdressTextArea("");
+		newCustomerPage.pressTabKey();
+		Assert.assertEquals(newCustomerPage.getAdressErrorMessage(),"Address Field must not be blank");
 	}
 	@Test
 	public void NC_06_Adress__havefirst_BlankSpace() {
-		
+		newCustomerPage.refreshCurrenPage(driver);
+		newCustomerPage.inputToAdressTextArea(" Hanoi");
+		newCustomerPage.pressTabKey();
+		Assert.assertEquals(newCustomerPage.getAdressErrorMessage(),"Address Field must not be blank");
 	}
 	@Test
 	public void NC_07_City_Field_Cannot_Be_Empty() {
@@ -152,6 +167,7 @@ public class TC_01_New_Customer extends BaseTest{
 
 	@AfterTest
 	public void afterTest() {
+		driver.quit();
 	}
 
 }

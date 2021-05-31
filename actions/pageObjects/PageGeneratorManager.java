@@ -21,7 +21,7 @@ public class PageGeneratorManager {
 		return loginPage;
 	}
 
-	public static ManagerPageObject managerPage (WebDriver driver) {
+	public static ManagerPageObject getManagerPage (WebDriver driver) {
 		if(managerPage == null) {
 			return new ManagerPageObject(driver);
 		}
