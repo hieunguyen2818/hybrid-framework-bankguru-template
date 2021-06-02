@@ -3,7 +3,7 @@
   <parameter name = "url" value = "http://demo.guru99.com/v4/" />
   
   <test name="New Customer">
-        <parameter name ="browser" value = "firefox" />
+        <parameter name ="browser" value = "Chrome" />
     <classes>
       <class name="com.bankguru.Customer.TC_01_New_Customer"/>
 

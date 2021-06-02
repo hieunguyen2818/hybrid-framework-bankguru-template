@@ -124,6 +124,14 @@ public class NewCustomerPageObject extends BasePage{
 		driver.findElement(By.xpath(NewCustomerPageUI.CUSTOMER_ADRESS_TEXT_AREA)).clear();
 		
 	}
+
+	public String getLabelText(String name) {		
+		return getElementText(driver, NewCustomerPageUI.LABEL_TEXT, name);
+	}
+	
+	public String getAdressLabelText(String addr) {		
+		return getElementText(driver, NewCustomerPageUI.ADDRESS_LABEL_TEXT, addr);
+	}
 	
 	
 }

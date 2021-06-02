@@ -227,7 +227,17 @@ public class TC_01_New_Customer extends BaseTest{
 		Assert.assertEquals(newCustomerPage.getEmailErrorMessage(),"Email-ID is not valid");	
 	}
 	@Test
-	public void NC_28_Check_all_fields_label_as_requirement () {
+	public void NC_28_Check_all_fields_label_as_requirement () {		
+		Assert.assertEquals(newCustomerPage.getLabelText("name"), "Customer Name");
+		Assert.assertEquals(newCustomerPage.getLabelText("rad1"), "Gender");
+		Assert.assertEquals(newCustomerPage.getLabelText("dob"), "Date of Birth");
+		Assert.assertEquals(newCustomerPage.getAdressLabelText("addr"), "Address");
+		Assert.assertEquals(newCustomerPage.getLabelText("city"), "City");
+		Assert.assertEquals(newCustomerPage.getLabelText("state"), "State");
+		Assert.assertEquals(newCustomerPage.getLabelText("pinno"), "PIN");
+		Assert.assertEquals(newCustomerPage.getLabelText("telephoneno"), "Mobile Number");
+		Assert.assertEquals(newCustomerPage.getLabelText("emailid"), "E-mail");
+		Assert.assertEquals(newCustomerPage.getLabelText("password"), "Password");
 		
 	}
 

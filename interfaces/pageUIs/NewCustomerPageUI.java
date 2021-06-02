@@ -32,5 +32,10 @@ public class NewCustomerPageUI {
 	public static final String PASSWORD_BOX = "//input[@name='password']";
 	
 	public static final String PASSWORD_ERROR_MESSAGE = "//label[@id='message18']";
-		
+	
+	public static final String LABEL_TEXT = "//input[@name='%s']/parent::td/preceding-sibling::td";	
+	
+	public static final String ADDRESS_LABEL_TEXT = "//textarea[@name='%s']/parent::td/preceding-sibling::td";	
+	
+			
 }
