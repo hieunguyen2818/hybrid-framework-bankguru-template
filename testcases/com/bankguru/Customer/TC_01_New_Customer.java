@@ -29,11 +29,10 @@ public class TC_01_New_Customer extends BaseTest{
 	@BeforeTest
 	public void beforeTest(String browserName, String appUrl) {
 		driver = getBrowserDriver(browserName, appUrl); 
-		loginPage = PageGeneratorManager.getLoginPage(driver);
-		loginPage.enterUserName("mngr330605");
-		loginPage.enterPassword("pEtUtUg");
-		managerPage = loginPage.clickToLoginButton();
-		Assert.assertEquals(managerPage.getWelcomeMessageText(),"Welcome To Manager's Page of Guru99 Bank");
+		Login(driver);
+		managerPage = PageGeneratorManager.getManagerPage(driver);
+//		managerPage = loginPage.clickToLoginButton();
+//		Assert.assertEquals(managerPage.getWelcomeMessageText(),"Welcome To Manager's Page of Guru99 Bank");
 	}
 
 	@Test

@@ -24,10 +24,10 @@ public class LoginPageObject extends BasePage{
 		
 	}
 
-	public ManagerPageObject clickToLoginButton() {
+	public void clickToLoginButton() {
 		waitForElementClickable(driver, LoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
-		return PageGeneratorManager.getManagerPage(driver);
+//		return PageGeneratorManager.getManagerPage(driver);
 	}
 
 }

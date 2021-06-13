@@ -48,12 +48,12 @@ public class BaseTest {
 		return driver;
 	}
 
-	public void Login(String userID, String password) {
+	public void Login(WebDriver driver) {
 		loginPage = PageGeneratorManager.getLoginPage(driver);
-		loginPage.enterUserName(userID);
-		loginPage.enterPassword(password);
-		managerPage = loginPage.clickToLoginButton();
-		Assert.assertEquals(managerPage.getWelcomeMessageText(),"Welcome To Manager's Page of Guru99 Bank");
+		loginPage.enterUserName(GlobalConstant.USERID);
+		loginPage.enterPassword(GlobalConstant.PASSWORD);
+		loginPage.clickToLoginButton();
+//		Assert.assertEquals(managerPage.getWelcomeMessageText(),"Welcome To Manager's Page of Guru99 Bank");
 	}
 
 }
