@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="false" name="Suite">
-  <test name="Test">
-    <classes>
-      <class name="com.bankguru.Payment.TC_01_Payment"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->

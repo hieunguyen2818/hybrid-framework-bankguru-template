@@ -1,6 +1,7 @@
 package commons;
 
 import java.util.List;
+import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -380,6 +381,12 @@ public class BasePage {
 		} catch(InterruptedException e) {
 			e.printStackTrace();
 		}
+	}
+
+	public String getRandomEmail() {
+		Random rand = new Random();
+		String email = "JohnTerry" + rand.nextInt(999) + "@gmail.com";
+		return email;
 	}
 	
 	private Alert alert;

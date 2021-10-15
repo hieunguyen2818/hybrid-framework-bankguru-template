@@ -1,0 +1,100 @@
+{
+  "uid" : "b8330352e51026ed",
+  "name" : "NC_10_City_Cannot_have_first_blankSpace",
+  "fullName" : "com.bankguru.Customer.TC_01_New_Customer.NC_10_City_Cannot_have_first_blankSpace",
+  "historyId" : "28c2437e69e637232658bd7fddb65c4d",
+  "time" : {
+    "start" : 1634054913340,
+    "stop" : 1634054913713,
+    "duration" : 373
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1634054892944,
+      "stop" : 1634054909255,
+      "duration" : 16311
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1634054936652,
+      "stop" : 1634054936746,
+      "duration" : 94
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.bankguru.Customer.TC_01_New_Customer"
+  }, {
+    "name" : "testClass",
+    "value" : "com.bankguru.Customer.TC_01_New_Customer"
+  }, {
+    "name" : "testMethod",
+    "value" : "NC_10_City_Cannot_have_first_blankSpace"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "New Customer"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.bankguru.Customer.TC_01_New_Customer"
+  }, {
+    "name" : "host",
+    "value" : "sotateks-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "48041@sotateks-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome"
+  }, {
+    "name" : "url",
+    "value" : "http://demo.guru99.com/v4/"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8330352e51026ed.json",
+  "parameterValues" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+}

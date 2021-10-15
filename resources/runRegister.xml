@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="true" name="Suite" preserve-order="true">>
+  <parameter name = "url" value = "http://demo.guru99.com/" />
+  
+  <test name="Register">
+        <parameter name ="browser" value = "Chrome" />
+    <classes>
+      <class name="com.bankguru.RegisterLogin.TC_01_Register"/>
+      <class name="com.bankguru.Customer.TC_01_New_Customer"/>
+
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,281 @@
+[ {
+  "uid" : "6bd4876d30264fa7",
+  "name" : "NC_05_Adress_Cannot_Be_Empty",
+  "time" : {
+    "start" : 1634054911544,
+    "stop" : 1634054911866,
+    "duration" : 322
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f00b08a47d0d481f",
+  "name" : "NC_19_PIN_cannot_have_first_blankSpace",
+  "time" : {
+    "start" : 1634054924935,
+    "stop" : 1634054925291,
+    "duration" : 356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd1b4acec12693c2",
+  "name" : "NC_22_Telephone_Cannot_have_first_blankSpace",
+  "time" : {
+    "start" : 1634054934370,
+    "stop" : 1634054934694,
+    "duration" : 324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc2fd6ffdc5920ca",
+  "name" : "NC_18_PIN_cannot_have_specialCharacters",
+  "time" : {
+    "start" : 1634054924569,
+    "stop" : 1634054924933,
+    "duration" : 364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4db01d1f1924b9a",
+  "name" : "NC_25_Email_Cannot_be_empty",
+  "time" : {
+    "start" : 1634054935463,
+    "stop" : 1634054935789,
+    "duration" : 326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc194228ead15d56",
+  "name" : "NC_09_City_Cannot_have_special_characters",
+  "time" : {
+    "start" : 1634054912965,
+    "stop" : 1634054913337,
+    "duration" : 372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d5e028075c6e615",
+  "name" : "NC_06_Adress__havefirst_BlankSpace",
+  "time" : {
+    "start" : 1634054911897,
+    "stop" : 1634054912216,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dbf8a9bfa413924",
+  "name" : "NC_15_PIN_mustbe_numeric",
+  "time" : {
+    "start" : 1634054923205,
+    "stop" : 1634054923874,
+    "duration" : 669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91e69a7c27df30a9",
+  "name" : "NC_24_Telephone_Cannot_have_special_Characters",
+  "time" : {
+    "start" : 1634054935078,
+    "stop" : 1634054935461,
+    "duration" : 383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2821e053885d6a5b",
+  "name" : "NC_08_City_Cannot_Be_Numeric",
+  "time" : {
+    "start" : 1634054912647,
+    "stop" : 1634054912961,
+    "duration" : 314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a9af462975c671f",
+  "name" : "NC_27_Email_Cannot_have_space",
+  "time" : {
+    "start" : 1634054936110,
+    "stop" : 1634054936472,
+    "duration" : 362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ac242ebe668a493",
+  "name" : "NC_21_Telephone_Cannot_be_empty",
+  "time" : {
+    "start" : 1634054925666,
+    "stop" : 1634054934366,
+    "duration" : 8700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3743ed35fa62156",
+  "name" : "NC_20_PIN_cannot_have_blankSpace",
+  "time" : {
+    "start" : 1634054925293,
+    "stop" : 1634054925664,
+    "duration" : 371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2d65bbc2b26c04e",
+  "name" : "NC_23_Telephone_Cannot_have_space",
+  "time" : {
+    "start" : 1634054934696,
+    "stop" : 1634054935076,
+    "duration" : 380
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c407cc7c83774d3",
+  "name" : "NC_01_Name_Can_Not_Be_Empty",
+  "time" : {
+    "start" : 1634054909477,
+    "stop" : 1634054910352,
+    "duration" : 875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5a96cda75f7bc11",
+  "name" : "NC_17_PIN_must_have_6_digits",
+  "time" : {
+    "start" : 1634054924248,
+    "stop" : 1634054924566,
+    "duration" : 318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5949b3ff245beef2",
+  "name" : "NC_07_City_Field_Cannot_Be_Empty",
+  "time" : {
+    "start" : 1634054912293,
+    "stop" : 1634054912642,
+    "duration" : 349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "baf2d195880073f8",
+  "name" : "NC_28_Check_all_fields_label_as_requirement",
+  "time" : {
+    "start" : 1634054936475,
+    "stop" : 1634054936650,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e290d550061d6be",
+  "name" : "NC_02_Name_Can_Not_Be_Numeric",
+  "time" : {
+    "start" : 1634054910394,
+    "stop" : 1634054910721,
+    "duration" : 327
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "301339cce47c0ab1",
+  "name" : "NC_11_State_Cannot_be_empty",
+  "time" : {
+    "start" : 1634054913715,
+    "stop" : 1634054922130,
+    "duration" : 8415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9685422349d0b40f",
+  "name" : "NC_13_State_Cannot_have_specialCharacters",
+  "time" : {
+    "start" : 1634054922453,
+    "stop" : 1634054922827,
+    "duration" : 374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8330352e51026ed",
+  "name" : "NC_10_City_Cannot_have_first_blankSpace",
+  "time" : {
+    "start" : 1634054913340,
+    "stop" : 1634054913713,
+    "duration" : 373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54cb628645415998",
+  "name" : "NC_26_Email_must_be_correct_format",
+  "time" : {
+    "start" : 1634054935791,
+    "stop" : 1634054936108,
+    "duration" : 317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dde6eca098114514",
+  "name" : "NC_12_State_Cannot_be_numeric",
+  "time" : {
+    "start" : 1634054922134,
+    "stop" : 1634054922451,
+    "duration" : 317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d68e62204931223b",
+  "name" : "NC_04_Name_Cannot_havefirstCharacter_asBlankSpace",
+  "time" : {
+    "start" : 1634054911171,
+    "stop" : 1634054911541,
+    "duration" : 370
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1812d8d368711ef",
+  "name" : "NC_14_StateCannot_have_first_blankSpace",
+  "time" : {
+    "start" : 1634054922830,
+    "stop" : 1634054923202,
+    "duration" : 372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a5fe87d4ca1a425",
+  "name" : "NC_16_PIN_cannot_be_empty",
+  "time" : {
+    "start" : 1634054923876,
+    "stop" : 1634054924243,
+    "duration" : 367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e7641d2365fad0a",
+  "name" : "NC_03_Name_Cannot_have_special_characters",
+  "time" : {
+    "start" : 1634054910726,
+    "stop" : 1634054911168,
+    "duration" : 442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

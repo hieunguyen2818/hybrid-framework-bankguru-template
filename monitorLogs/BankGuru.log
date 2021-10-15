@@ -1,0 +1,12 @@
+[INFO ] [2021-10-16 00:03:52,382] Precondition: Step 1 init browser Chrome
+[INFO ] [2021-10-16 00:04:00,290] Precondition: Step 2 - Login to app
+[INFO ] [2021-10-16 00:04:01,890] TC_01: Step 1 - Click on New Customer Page
+[INFO ] [2021-10-16 00:04:02,319] TC_01: Step 2 - Input empty to Name Textbox
+[INFO ] [2021-10-16 00:04:02,409] TC_01: Step 3 - Press Tab key
+[INFO ] [2021-10-16 00:04:05,911] TC_01: Step 4 - Verify message display correctly
+[INFO ] [2021-10-16 00:04:05,961]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-16 00:04:06,024] TC_02: Step 1 - Clear Name Textbox
+[INFO ] [2021-10-16 00:04:06,047] TC_02: Step 2 - Input to Name Textbox with number
+[INFO ] [2021-10-16 00:04:06,119] TC_02: Step 3 - Press Tab key
+[INFO ] [2021-10-16 00:04:11,383] TC_02: Step 4 - Verify message display correctly
+[INFO ] [2021-10-16 00:04:11,428]  -------------------------- PASSED -------------------------- 

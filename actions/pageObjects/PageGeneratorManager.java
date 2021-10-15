@@ -9,6 +9,7 @@ public class PageGeneratorManager {
 	private static NewCustomerPageObject newCustomerPage;
 	private static EditCustomerPageObject editCustomerPage;
 	private static DeleteCustomerPageObject deleteCustomerPage;
+	private static RegisterPageObject registerPage;
 
 	public PageGeneratorManager(WebDriver driver) {
 		
@@ -47,5 +48,12 @@ public class PageGeneratorManager {
 		return new DeleteCustomerPageObject(driver);
 	}
 		return deleteCustomerPage;
+	}
+
+	public static RegisterPageObject getRegisterPage(WebDriver driver) {
+		if(registerPage == null) {
+		return new RegisterPageObject(driver);
+	}
+		return registerPage;
 	}
 }

@@ -1,0 +1,369 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "NC_01_Name_Can_Not_Be_Empty",
+    "uid" : "7c407cc7c83774d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054909477,
+      "stop" : 1634054910352,
+      "duration" : 875
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_02_Name_Can_Not_Be_Numeric",
+    "uid" : "1e290d550061d6be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1634054910394,
+      "stop" : 1634054910721,
+      "duration" : 327
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_03_Name_Cannot_have_special_characters",
+    "uid" : "9e7641d2365fad0a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054910726,
+      "stop" : 1634054911168,
+      "duration" : 442
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_04_Name_Cannot_havefirstCharacter_asBlankSpace",
+    "uid" : "d68e62204931223b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054911171,
+      "stop" : 1634054911541,
+      "duration" : 370
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_05_Adress_Cannot_Be_Empty",
+    "uid" : "6bd4876d30264fa7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054911544,
+      "stop" : 1634054911866,
+      "duration" : 322
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_06_Adress__havefirst_BlankSpace",
+    "uid" : "7d5e028075c6e615",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054911897,
+      "stop" : 1634054912216,
+      "duration" : 319
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_07_City_Field_Cannot_Be_Empty",
+    "uid" : "5949b3ff245beef2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054912293,
+      "stop" : 1634054912642,
+      "duration" : 349
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_08_City_Cannot_Be_Numeric",
+    "uid" : "2821e053885d6a5b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054912647,
+      "stop" : 1634054912961,
+      "duration" : 314
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_09_City_Cannot_have_special_characters",
+    "uid" : "fc194228ead15d56",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054912965,
+      "stop" : 1634054913337,
+      "duration" : 372
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_10_City_Cannot_have_first_blankSpace",
+    "uid" : "b8330352e51026ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054913340,
+      "stop" : 1634054913713,
+      "duration" : 373
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_11_State_Cannot_be_empty",
+    "uid" : "301339cce47c0ab1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054913715,
+      "stop" : 1634054922130,
+      "duration" : 8415
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_12_State_Cannot_be_numeric",
+    "uid" : "dde6eca098114514",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054922134,
+      "stop" : 1634054922451,
+      "duration" : 317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_13_State_Cannot_have_specialCharacters",
+    "uid" : "9685422349d0b40f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054922453,
+      "stop" : 1634054922827,
+      "duration" : 374
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_14_StateCannot_have_first_blankSpace",
+    "uid" : "c1812d8d368711ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054922830,
+      "stop" : 1634054923202,
+      "duration" : 372
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_15_PIN_mustbe_numeric",
+    "uid" : "9dbf8a9bfa413924",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054923205,
+      "stop" : 1634054923874,
+      "duration" : 669
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_16_PIN_cannot_be_empty",
+    "uid" : "3a5fe87d4ca1a425",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054923876,
+      "stop" : 1634054924243,
+      "duration" : 367
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_17_PIN_must_have_6_digits",
+    "uid" : "f5a96cda75f7bc11",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054924248,
+      "stop" : 1634054924566,
+      "duration" : 318
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_18_PIN_cannot_have_specialCharacters",
+    "uid" : "fc2fd6ffdc5920ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054924569,
+      "stop" : 1634054924933,
+      "duration" : 364
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_19_PIN_cannot_have_first_blankSpace",
+    "uid" : "f00b08a47d0d481f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054924935,
+      "stop" : 1634054925291,
+      "duration" : 356
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_20_PIN_cannot_have_blankSpace",
+    "uid" : "c3743ed35fa62156",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054925293,
+      "stop" : 1634054925664,
+      "duration" : 371
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_21_Telephone_Cannot_be_empty",
+    "uid" : "6ac242ebe668a493",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054925666,
+      "stop" : 1634054934366,
+      "duration" : 8700
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_22_Telephone_Cannot_have_first_blankSpace",
+    "uid" : "bd1b4acec12693c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054934370,
+      "stop" : 1634054934694,
+      "duration" : 324
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_23_Telephone_Cannot_have_space",
+    "uid" : "f2d65bbc2b26c04e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054934696,
+      "stop" : 1634054935076,
+      "duration" : 380
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_24_Telephone_Cannot_have_special_Characters",
+    "uid" : "91e69a7c27df30a9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054935078,
+      "stop" : 1634054935461,
+      "duration" : 383
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_25_Email_Cannot_be_empty",
+    "uid" : "e4db01d1f1924b9a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054935463,
+      "stop" : 1634054935789,
+      "duration" : 326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_26_Email_must_be_correct_format",
+    "uid" : "54cb628645415998",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054935791,
+      "stop" : 1634054936108,
+      "duration" : 317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_27_Email_Cannot_have_space",
+    "uid" : "5a9af462975c671f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054936110,
+      "stop" : 1634054936472,
+      "duration" : 362
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  }, {
+    "name" : "NC_28_Check_all_fields_label_as_requirement",
+    "uid" : "baf2d195880073f8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634054936475,
+      "stop" : 1634054936650,
+      "duration" : 175
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome", "http://demo.guru99.com/v4/" ]
+  } ]
+}
